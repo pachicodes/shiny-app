@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 2px #76767629;
+}
+
+header * {
+    display: inline;
+}
+
+.header__menu-item {
+    margin: 20px;
+}
+
+.header__menu-link {
+    text-decoration: none;
+    color: #565454;
+}
+
+.logo__img {
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+.logo__text {
+    color: #565454;
+}
+
+.search {
+    position: absolute;
+    right: 40px;
+}
+
+.search__input{ 
+    padding: 10px;
+}
+
+.night-mode {
+    position: absolute;
+    right: 260px;
+}
+
+/* HERO */
+.hero__background {
+    position: absolute;
+    top: 138px;
+    width: 968px;
+    height: 130px;
+    width: 95%;    
+    margin: auto;
+    background-color: #1C2750;
+
+}
+
+.hero {
+    position: relative;
+    top: 138px;
+    width: 968px;
+    height: 130px;
+    width: 95%;
+    color: #FFFFFF;
+    margin: auto;
+    background: transparent url('img/Group 3116.png') 0% 0% no-repeat padding-box;
+}
+
+.hero__img {
+    position: relative;
+    top: 135px;
+    left: 90px;
+}
+
+
+.content {
+    position: absolute;
+    top: 600px;
+}
+
+

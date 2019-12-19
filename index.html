@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" main="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" main="ie=edge">
     <title>MTKC</title>
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -12,194 +12,206 @@
 </head>
 <body>
     <header>
-        <img class="header__logo" src="/img/logo.svg" alt="logo of Me Too Kit company">
+        <a href="/index.html">
+            <img class="logo__img" src="/img/logo.svg" alt="logo of Me Too Kit company">
+        </a>
+        <p class="logo__text">MKTC</p>
         <nav class="header__nav">
-            <ul class="header__ul">
-                <li class="header__li">Statewide Sexual Assault Data</li>
-                <li class="header__li">Backlogged Sexual Assault Kits</li>
-                <li class="header__li">Analytics</li>
+            <ul class="header__menu">
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="/index.html">Statewide Sexual Assault Data</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="/pages/backlogged-sexual-assault-kits.html">Backlogged Sexual Assault Kits</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="/pages/analytics.html">Analytics</a>
+                </li>
             </ul>
         </nav>
-        <img class="header__night-mode" src="/img/moon.svg" alt="image of a moon that when clicked changes the website to night mode">
-        <form class="header__search">
-            <button type="submit"><img src="/img/search.svg" alt="Searching Magnifying Glass icon to represent search" width="10px"></button>
-            <input type="text" placeholder="Search">
+        <button class="night-mode">
+            <img class="night-mode__icon" src="/img/moon.svg" alt="night mode icon">
+        </button>    
+        <form class="search">
+            <button class="search__btn" type="submit">
+                <img class="search__img" src="/img/search.svg" alt="Searching Magnifying Glass icon to represent search" width="10px">
+            </button>
+            <input class="search__input" type="text" placeholder="Search">
         </form>
     </header>
 
     <section class="hero">
-        <div class="hero__main">
-            <h1 class="hero__title">Statewide Sexual Assault Data</h1>
-            <img class="hero__img" src="/img/graph-line.svg" alt="image of a long line, graph style">
-            <button class="hero__btn"><img class="download-icon" src="/img/download.svg" width="10px" alt="icon representing download">Download data</button>
-        </div>
+        <div class="hero__background"></div>
+        <h1 class="hero__title">Statewide Sexual Assault Data</h1>
+        <img class="hero__img" src="/img/graph-line.svg" alt="image of a long line, graph style">
+        <button class="hero__btn"><img class="download-icon" src="/img/download.svg" width="10px" alt="icon representing download">Download data</button>
     </section>
 
-    <section class="main">
-        <table class="main__table">
-            <tr class="main__table-top">
-              <th class="main__table-top-item">S/N</th>
-              <th class="main__table-top-item">State</th>
-              <th class="main__table-top-item">Population</th>
-              <th class="main__table-top-item">Hospitals</th>
-              <th class="main__table-top-item">Sexual Assault Hospitals</th>
-              <th class="main__table-top-item">Nurses</th>
-              <th class="main__table-top-item">Sexual Assault Nurse Examiners</th>
-              <th class="main__table-top-item">Rape Reports</th>
-              <th class="main__table-top-item">Rape Arrests</th>
-              <th class="main__table-top-item">Rape per Capita</th>
-              <th class="main__table-top-item">Arrest per Capita</th>
-              <th class="main__table-top-item">Arrest per Report</th>
+    <section class="content">
+        <table class="content__table">
+            <tr class="content__table-top">
+              <th class="content__table-top-item">S/N</th>
+              <th class="content__table-top-item">State</th>
+              <th class="content__table-top-item">Population</th>
+              <th class="content__table-top-item">Hospitals</th>
+              <th class="content__table-top-item">Sexual Assault Hospitals</th>
+              <th class="content__table-top-item">Nurses</th>
+              <th class="content__table-top-item">Sexual Assault Nurse Examiners</th>
+              <th class="content__table-top-item">Rape Reports</th>
+              <th class="content__table-top-item">Rape Arrests</th>
+              <th class="content__table-top-item">Rape per Capita</th>
+              <th class="content__table-top-item">Arrest per Capita</th>
+              <th class="content__table-top-item">Arrest per Report</th>
             </tr>
 
-            <tr class="main__table-content">
-                <th class="main__table-content-item">1</th>
-                <th class="main__table-content-item">Florida</th>
-                <th class="main__table-content-item">21299325</th>
-                <th class="main__table-content-item">325</th>
-                <th class="main__table-content-item">24</th>
-                <th class="main__table-content-item">316970</th>
-                <th class="main__table-content-item">43</th>
-                <th class="main__table-content-item">7940</th>
-                <th class="main__table-content-item">1936</th>
-                <th class="main__table-content-item">0.000373</th>
-                <th class="main__table-content-item">0.000091</th>
-                <th class="main__table-content-item">0.243829</th>                
+            <tr class="content__table-content">
+                <th class="content__table-content-item">1</th>
+                <th class="content__table-content-item">Florida</th>
+                <th class="content__table-content-item">21299325</th>
+                <th class="content__table-content-item">325</th>
+                <th class="content__table-content-item">24</th>
+                <th class="content__table-content-item">316970</th>
+                <th class="content__table-content-item">43</th>
+                <th class="content__table-content-item">7940</th>
+                <th class="content__table-content-item">1936</th>
+                <th class="content__table-content-item">0.000373</th>
+                <th class="content__table-content-item">0.000091</th>
+                <th class="content__table-content-item">0.243829</th>                
             </tr>
 
-            <tr class="main__table-content">
-                <th class="main__table-content-item">2</th>
-                <th class="main__table-content-item">New York</th>
-                <th class="main__table-content-item">21299325</th>
-                <th class="main__table-content-item">325</th>
-                <th class="main__table-content-item">24</th>
-                <th class="main__table-content-item">316970</th>
-                <th class="main__table-content-item">43</th>
-                <th class="main__table-content-item">7940</th>
-                <th class="main__table-content-item">1936</th>
-                <th class="main__table-content-item">0.000373</th>
-                <th class="main__table-content-item">0.000091</th>
-                <th class="main__table-content-item">0.243829</th>              
+            <tr class="content__table-content">
+                <th class="content__table-content-item">2</th>
+                <th class="content__table-content-item">New York</th>
+                <th class="content__table-content-item">21299325</th>
+                <th class="content__table-content-item">325</th>
+                <th class="content__table-content-item">24</th>
+                <th class="content__table-content-item">316970</th>
+                <th class="content__table-content-item">43</th>
+                <th class="content__table-content-item">7940</th>
+                <th class="content__table-content-item">1936</th>
+                <th class="content__table-content-item">0.000373</th>
+                <th class="content__table-content-item">0.000091</th>
+                <th class="content__table-content-item">0.243829</th>              
             </tr>
 
-            <tr class="main__table-content">
-                <th class="main__table-content-item">3</th>
-                <th class="main__table-content-item">Pennsylvania</th>
-                <th class="main__table-content-item">21299325</th>
-                <th class="main__table-content-item">325</th>
-                <th class="main__table-content-item">24</th>
-                <th class="main__table-content-item">316970</th>
-                <th class="main__table-content-item">43</th>
-                <th class="main__table-content-item">7940</th>
-                <th class="main__table-content-item">1936</th>
-                <th class="main__table-content-item">0.000373</th>
-                <th class="main__table-content-item">0.000091</th>
-                <th class="main__table-content-item">0.243829</th>                
+            <tr class="content__table-content">
+                <th class="content__table-content-item">3</th>
+                <th class="content__table-content-item">Pennsylvania</th>
+                <th class="content__table-content-item">21299325</th>
+                <th class="content__table-content-item">325</th>
+                <th class="content__table-content-item">24</th>
+                <th class="content__table-content-item">316970</th>
+                <th class="content__table-content-item">43</th>
+                <th class="content__table-content-item">7940</th>
+                <th class="content__table-content-item">1936</th>
+                <th class="content__table-content-item">0.000373</th>
+                <th class="content__table-content-item">0.000091</th>
+                <th class="content__table-content-item">0.243829</th>                
             </tr>
 
-            <tr class="main__table-content">
-                <th class="main__table-content-item">4</th>
-                <th class="main__table-content-item">Illinois</th>
-                <th class="main__table-content-item">21299325</th>
-                <th class="main__table-content-item">325</th>
-                <th class="main__table-content-item">24</th>
-                <th class="main__table-content-item">316970</th>
-                <th class="main__table-content-item">43</th>
-                <th class="main__table-content-item">7940</th>
-                <th class="main__table-content-item">1936</th>
-                <th class="main__table-content-item">0.000373</th>
-                <th class="main__table-content-item">0.000091</th>
-                <th class="main__table-content-item">0.243829</th>                 
+            <tr class="content__table-content">
+                <th class="content__table-content-item">4</th>
+                <th class="content__table-content-item">Illinois</th>
+                <th class="content__table-content-item">21299325</th>
+                <th class="content__table-content-item">325</th>
+                <th class="content__table-content-item">24</th>
+                <th class="content__table-content-item">316970</th>
+                <th class="content__table-content-item">43</th>
+                <th class="content__table-content-item">7940</th>
+                <th class="content__table-content-item">1936</th>
+                <th class="content__table-content-item">0.000373</th>
+                <th class="content__table-content-item">0.000091</th>
+                <th class="content__table-content-item">0.243829</th>                 
             </tr>
 
-            <tr class="main__table-content">
-                <th class="main__table-content-item">5</th>
-                <th class="main__table-content-item">Ohio</th>
-                <th class="main__table-content-item">21299325</th>
-                <th class="main__table-content-item">325</th>
-                <th class="main__table-content-item">24</th>
-                <th class="main__table-content-item">316970</th>
-                <th class="main__table-content-item">43</th>
-                <th class="main__table-content-item">7940</th>
-                <th class="main__table-content-item">1936</th>
-                <th class="main__table-content-item">0.000373</th>
-                <th class="main__table-content-item">0.000091</th>
-                <th class="main__table-content-item">0.243829</th>                 
+            <tr class="content__table-content">
+                <th class="content__table-content-item">5</th>
+                <th class="content__table-content-item">Ohio</th>
+                <th class="content__table-content-item">21299325</th>
+                <th class="content__table-content-item">325</th>
+                <th class="content__table-content-item">24</th>
+                <th class="content__table-content-item">316970</th>
+                <th class="content__table-content-item">43</th>
+                <th class="content__table-content-item">7940</th>
+                <th class="content__table-content-item">1936</th>
+                <th class="content__table-content-item">0.000373</th>
+                <th class="content__table-content-item">0.000091</th>
+                <th class="content__table-content-item">0.243829</th>                 
             </tr>
 
-            <tr class="main__table-content">
-                <th class="main__table-content-item">6</th>
-                <th class="main__table-content-item">Georgia</th>
-                <th class="main__table-content-item">21299325</th>
-                <th class="main__table-content-item">325</th>
-                <th class="main__table-content-item">24</th>
-                <th class="main__table-content-item">316970</th>
-                <th class="main__table-content-item">43</th>
-                <th class="main__table-content-item">7940</th>
-                <th class="main__table-content-item">1936</th>
-                <th class="main__table-content-item">0.000373</th>
-                <th class="main__table-content-item">0.000091</th>
-                <th class="main__table-content-item">0.243829</th> 
+            <tr class="content__table-content">
+                <th class="content__table-content-item">6</th>
+                <th class="content__table-content-item">Georgia</th>
+                <th class="content__table-content-item">21299325</th>
+                <th class="content__table-content-item">325</th>
+                <th class="content__table-content-item">24</th>
+                <th class="content__table-content-item">316970</th>
+                <th class="content__table-content-item">43</th>
+                <th class="content__table-content-item">7940</th>
+                <th class="content__table-content-item">1936</th>
+                <th class="content__table-content-item">0.000373</th>
+                <th class="content__table-content-item">0.000091</th>
+                <th class="content__table-content-item">0.243829</th> 
             </tr>
 
-            <tr class="main__table-content">
-                <th class="main__table-content-item">7</th>
-                <th class="main__table-content-item">North Caroline</th>
-                <th class="main__table-content-item">21299325</th>
-                <th class="main__table-content-item">325</th>
-                <th class="main__table-content-item">24</th>
-                <th class="main__table-content-item">316970</th>
-                <th class="main__table-content-item">43</th>
-                <th class="main__table-content-item">7940</th>
-                <th class="main__table-content-item">1936</th>
-                <th class="main__table-content-item">0.000373</th>
-                <th class="main__table-content-item">0.000091</th>
-                <th class="main__table-content-item">0.243829</th>                
+            <tr class="content__table-content">
+                <th class="content__table-content-item">7</th>
+                <th class="content__table-content-item">North Caroline</th>
+                <th class="content__table-content-item">21299325</th>
+                <th class="content__table-content-item">325</th>
+                <th class="content__table-content-item">24</th>
+                <th class="content__table-content-item">316970</th>
+                <th class="content__table-content-item">43</th>
+                <th class="content__table-content-item">7940</th>
+                <th class="content__table-content-item">1936</th>
+                <th class="content__table-content-item">0.000373</th>
+                <th class="content__table-content-item">0.000091</th>
+                <th class="content__table-content-item">0.243829</th>                
             </tr>
 
-            <tr class="main__table-content">
-                <th class="main__table-content-item">8</th>
-                <th class="main__table-content-item">Michigan</th>
-                <th class="main__table-content-item">21299325</th>
-                <th class="main__table-content-item">325</th>
-                <th class="main__table-content-item">24</th>
-                <th class="main__table-content-item">316970</th>
-                <th class="main__table-content-item">43</th>
-                <th class="main__table-content-item">7940</th>
-                <th class="main__table-content-item">1936</th>
-                <th class="main__table-content-item">0.000373</th>
-                <th class="main__table-content-item">0.000091</th>
-                <th class="main__table-content-item">0.243829</th> 
+            <tr class="content__table-content">
+                <th class="content__table-content-item">8</th>
+                <th class="content__table-content-item">Michigan</th>
+                <th class="content__table-content-item">21299325</th>
+                <th class="content__table-content-item">325</th>
+                <th class="content__table-content-item">24</th>
+                <th class="content__table-content-item">316970</th>
+                <th class="content__table-content-item">43</th>
+                <th class="content__table-content-item">7940</th>
+                <th class="content__table-content-item">1936</th>
+                <th class="content__table-content-item">0.000373</th>
+                <th class="content__table-content-item">0.000091</th>
+                <th class="content__table-content-item">0.243829</th> 
             </tr>
 
-            <tr class="main__table-content">
-                <th class="main__table-content-item">9</th>
-                <th class="main__table-content-item">New Jersey</th>
-                <th class="main__table-content-item">21299325</th>
-                <th class="main__table-content-item">325</th>
-                <th class="main__table-content-item">24</th>
-                <th class="main__table-content-item">316970</th>
-                <th class="main__table-content-item">43</th>
-                <th class="main__table-content-item">7940</th>
-                <th class="main__table-content-item">1936</th>
-                <th class="main__table-content-item">0.000373</th>
-                <th class="main__table-content-item">0.000091</th>
-                <th class="main__table-content-item">0.243829</th>                
+            <tr class="content__table-content">
+                <th class="content__table-content-item">9</th>
+                <th class="content__table-content-item">New Jersey</th>
+                <th class="content__table-content-item">21299325</th>
+                <th class="content__table-content-item">325</th>
+                <th class="content__table-content-item">24</th>
+                <th class="content__table-content-item">316970</th>
+                <th class="content__table-content-item">43</th>
+                <th class="content__table-content-item">7940</th>
+                <th class="content__table-content-item">1936</th>
+                <th class="content__table-content-item">0.000373</th>
+                <th class="content__table-content-item">0.000091</th>
+                <th class="content__table-content-item">0.243829</th>                
             </tr>
 
-            <tr class="main__table-content">
-                <th class="main__table-content-item">10</th>
-                <th class="main__table-content-item">Virginia</th>
-                <th class="main__table-content-item">21299325</th>
-                <th class="main__table-content-item">325</th>
-                <th class="main__table-content-item">24</th>
-                <th class="main__table-content-item">316970</th>
-                <th class="main__table-content-item">43</th>
-                <th class="main__table-content-item">7940</th>
-                <th class="main__table-content-item">1936</th>
-                <th class="main__table-content-item">0.000373</th>
-                <th class="main__table-content-item">0.000091</th>
-                <th class="main__table-content-item">0.243829</th>                
+            <tr class="content__table-content">
+                <th class="content__table-content-item">10</th>
+                <th class="content__table-content-item">Virginia</th>
+                <th class="content__table-content-item">21299325</th>
+                <th class="content__table-content-item">325</th>
+                <th class="content__table-content-item">24</th>
+                <th class="content__table-content-item">316970</th>
+                <th class="content__table-content-item">43</th>
+                <th class="content__table-content-item">7940</th>
+                <th class="content__table-content-item">1936</th>
+                <th class="content__table-content-item">0.000373</th>
+                <th class="content__table-content-item">0.000091</th>
+                <th class="content__table-content-item">0.243829</th>                
             </tr>
         </table> 
     </section>
