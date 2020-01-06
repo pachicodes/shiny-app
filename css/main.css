@@ -29,6 +29,7 @@ header * {
     color: #A0A0A0;
     font-weight: 300;
 }
+
 .header__menu-link:hover {
     color: #565454;
     font-weight: 400;
@@ -73,4 +74,24 @@ label {
 
 input {
     border: 0;  
+}
+
+/* Hero */
+.hero {
+    background-color: #1C2750;
+    border-radius: 3px;
+    width: 96%;
+    height: 150px;
+    margin: 20px auto;    
+}
+
+.hero__img {
+    position: relative;
+    top: 50px;
+}
+
+.hero__title {
+    color: #fff;
+    position: relative;
+    top
 }
