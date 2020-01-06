@@ -26,7 +26,12 @@ header * {
 
 .header__menu-link {
     text-decoration: none;
+    color: #A0A0A0;
+    font-weight: 300;
+}
+.header__menu-link:hover {
     color: #565454;
+    font-weight: 400;
 }
 
 .logo__img {
@@ -36,11 +41,17 @@ header * {
 
 .logo__text {
     color: #565454;
+    font-size: 22px;
+    padding-right: 50px;
 }
 
 .night-mode {
     position: absolute;
-    right: 260px;
+    right: 280px;
+    border: solid 1px #E0E0E0;
+    border-radius: 3px;
+    background-color: #fff;
+    padding: 5px 10px;
 }
 
 .search {
@@ -53,7 +64,10 @@ header * {
 }
 
 label {
+    position: relative;
+    left: 200px;
     border: solid 1px #E0E0E0;
+    border-radius: 3px;
     padding: 6px;
 }
 
