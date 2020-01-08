@@ -31,37 +31,53 @@
         </nav>
         <button class="night-mode">
             <img class="night-mode__icon" src="/img/moon.svg" alt="night mode icon">
-        </button>    
-        <form class="search">
-            <button class="search__btn" type="submit">
-                <img class="search__img" src="/img/search.svg" alt="Searching Magnifying Glass icon to represent search" width="10px">
-            </button>
-            <input class="search__input" type="text" placeholder="Search">
-        </form>
+        </button>
+        <label>
+            <svg xmlns="http://www.w3.org/2000/svg" 
+            xmlns:xlink="http://www.w3.org/1999/xlink" 
+            version="1.1" id="Capa_1" x="0px" y="0px" width="20px" height="20px" 
+            viewBox="0 0 446.25 446.25" style="enable-background:new 0 0 446.25 446.25;" 
+            xml:space="preserve" class="hovered-paths">
+            <g><g>
+                <g id="search">
+                    <path d="M318.75,280.5h-20.4l-7.649-7.65c25.5-28.05,40.8-66.3,40.8-107.1C331.5,73.95,257.55,0,165.75,0S0,73.95,0,165.75    S73.95,331.5,165.75,331.5c40.8,0,79.05-15.3,107.1-40.8l7.65,7.649v20.4L408,446.25L446.25,408L318.75,280.5z M165.75,280.5    C102,280.5,51,229.5,51,165.75S102,51,165.75,51S280.5,102,280.5,165.75S229.5,280.5,165.75,280.5z" 
+                    data-original="#000000" class="hovered-path active-path" data-old_color="#000000" fill="#A0A0A0"/>
+                </g>
+            </g></g> 
+            </svg>            
+            <input placeholder="Search">
+        </label>
     </header>
 
     <section class="hero">
-        <div class="hero__background"></div>
-        <h1 class="hero__title">Statewide Sexual Assault Data</h1>
-        <img class="hero__img" src="/img/graph-line.svg" alt="image of a long line, graph style">
-        <button class="hero__btn"><img class="download-icon" src="/img/download.svg" width="10px" alt="icon representing download">Download data</button>
+        <img class="hero__img" 
+        src="/img/graph-line.svg" 
+        alt="image of a long line, graph style"
+        >
+        <div class="hero__container">            
+            <h1 class="hero__title">Statewide Sexual Assault Data</h1>
+            <button class="hero__btn">
+                <img class="download-icon" src="/img/download.svg" width="10px" alt="icon representing download">
+                Download data
+            </button>
+        </div>
     </section>
 
     <section class="content">
         <table class="content__table">
-            <tr class="content__table-top">
-              <th class="content__table-top-item">S/N</th>
-              <th class="content__table-top-item">State</th>
-              <th class="content__table-top-item">Population</th>
-              <th class="content__table-top-item">Hospitals</th>
-              <th class="content__table-top-item">Sexual Assault Hospitals</th>
-              <th class="content__table-top-item">Nurses</th>
-              <th class="content__table-top-item">Sexual Assault Nurse Examiners</th>
-              <th class="content__table-top-item">Rape Reports</th>
-              <th class="content__table-top-item">Rape Arrests</th>
-              <th class="content__table-top-item">Rape per Capita</th>
-              <th class="content__table-top-item">Arrest per Capita</th>
-              <th class="content__table-top-item">Arrest per Report</th>
+            <tr class="content__table-title">
+              <th class="content__table-title-item">S/N</th>
+              <th class="content__table-title-item">State</th>
+              <th class="content__table-title-item">Population</th>
+              <th class="content__table-title-item">Hospitals</th>
+              <th class="content__table-title-item">Sexual Assault Hospitals</th>
+              <th class="content__table-title-item">Nurses</th>
+              <th class="content__table-title-item">Sexual Assault Nurse Examiners</th>
+              <th class="content__table-title-item">Rape Reports</th>
+              <th class="content__table-title-item">Rape Arrests</th>
+              <th class="content__table-title-item">Rape per Capita</th>
+              <th class="content__table-title-item">Arrest per Capita</th>
+              <th class="content__table-title-item">Arrest per Report</th>
             </tr>
 
             <tr class="content__table-content">
@@ -216,9 +232,8 @@
         </table> 
     </section>
 
-    <footer>
-        <p>Previous < 1 2 3 > Next</1></p>
-        
+    <footer class="footer">
+        <p class="footer__text">Previous < 1 2 3 > Next</p>        
     </footer>
 
     
