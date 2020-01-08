@@ -137,6 +137,11 @@ input {
     padding: 20px;
 }
 
+.content__table-content:hover {
+    box-shadow: 0px 10px 5px 0px #A0A0A0;
+    cursor: pointer;
+}
+
 /* Footer */
 .footer__pages {
     position: absolute;
