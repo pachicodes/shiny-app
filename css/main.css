@@ -22,7 +22,8 @@ header * {
     margin: 20px;
 }
 
-.header__menu-link {
+.header__menu-link,
+.backlog__menu-link {
     text-decoration: none;
     color: #A0A0A0;
     font-weight: 300;
@@ -31,6 +32,11 @@ header * {
 .header__menu-link:hover {
     color: #565454;
     font-weight: 400;
+}
+
+.backlog__menu-link:hover {
+    color: #1C2750;
+    font-weight: 700
 }
 
 .logo__img {
@@ -112,22 +118,33 @@ input {
 }
 
 /* Table */
-.content {
+.content, 
+.backlog-basics__content,
+.backlog-group__content {
     width: 96%;
     margin: 10px auto;
 }
-.content__table-title, .content__table-content {
+.content__table-title, 
+.content__table-content, 
+.backlog-basics__title, 
+.backlog-basics__data,
+.backlog-group__title, 
+.backlog-group__data {
     border: 1px solid #A0A0A0;
     border-radius: 1px;
     background-color: #fff;
 }
 
-.content__table {    
+.content__table,
+.backlog-basics__content,
+.backlog-group__content {    
     border-collapse: separate;
     border-spacing:0 15px;
 }
 
-.content__table-content-item {
+.content__table-content-item,
+.backlog-basics__item,
+.backlog-group__item {
     text-align: center;
     letter-spacing: -0.18px;
     color: #45507A;
@@ -135,7 +152,9 @@ input {
     padding: 20px;
 }
 
-.content__table-title-item {
+.content__table-title-item,
+.backlog-basics__title-item,
+.backlog-group__title-item {
     border-top: solid 2px #1C2750;
     text-align: center;
     letter-spacing: -0.18px;
@@ -144,7 +163,9 @@ input {
     padding: 20px;
 }
 
-.content__table-content:hover {
+.content__table-content:hover,
+.backlog-basics__data:hover,
+.backlog-group__data:hover {
     box-shadow: 0px 10px 5px 0px #A0A0A0;
     cursor: pointer;
 }
