@@ -106,6 +106,11 @@ input {
     letter-spacing: -0.19px;
 }
 
+.hero__btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 1px 5px 0px #ffffff;
+}
+
 /* Table */
 .content {
     width: 96%;
@@ -123,17 +128,19 @@ input {
 }
 
 .content__table-content-item {
-    text-align: left;
+    text-align: center;
     letter-spacing: -0.18px;
-    color: #45507A;    
+    color: #45507A;
+    font-weight: 300;    
     padding: 20px;
 }
 
 .content__table-title-item {
     border-top: solid 2px #1C2750;
-    text-align: left;
+    text-align: center;
     letter-spacing: -0.18px;
     color: #1C2750;
+    font-weight: 700;
     padding: 20px;
 }
 
@@ -145,7 +152,7 @@ input {
 /* Footer */
 .footer__pages {
     position: absolute;
-    bottom: -400px;
+    bottom: -200px;
     right: 100px;
     padding: 15px;
     color: #45507A;
