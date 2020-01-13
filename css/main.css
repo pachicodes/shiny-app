@@ -177,3 +177,25 @@ input {
 .bold {
     font-weight: 700;
 }
+
+/* Analytics */
+.region {
+    width: 96%;
+    height: 80px;
+    background-color: #ffffff;
+    margin: 10px auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+}
+
+.region__span {
+    color: #4260D1;
+    font-weight: 700;
+}
+
+.region__item {
+    display: inline;
+    padding: auto;
+    padding: 15px;
+}
