@@ -1,0 +1,18 @@
+/* Backlog Menu */
+.backlog__menu {
+    width: 96%;
+    margin: 0 auto;
+    border-bottom: solid 1px #D3D3D3;
+}
+
+.backlog__menu-list {   
+    margin: 10px 0; 
+}
+
+.backlog__menu-item {
+    display: inline;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    color: #A0A0A0;
+    padding: 15px;   
+}
