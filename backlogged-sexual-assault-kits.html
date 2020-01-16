@@ -143,32 +143,8 @@
             <p class="footer__pages-number"> <span class="bold">&lt</span>Previous 1 2 3 Next<span class="bold">&gt</span></p>
         </div>        
     </footer>
-
-    <!-- checkbox script (start)-->
-    <script>
-
-        var checkbox = document.querySelector('input[name=theme');
-
-        checkbox.addEventListener('change', function() {
-            if(this.checked) {
-                trans()
-                document.documentElement.setAttribute('data-theme', 'dark')
-            }
-            else{
-                trans()
-                document.documentElement.setAttribute('data-theme', 'light')
-            }
-        })
-
-        let trans = () => {
-            document.documentElement.classList.add('transition');
-            window.setTimeout(() => {
-                document.documentElement.classList.remove('transition');
-            }, 1000)
-        }
-
-    </script>
-    <!-- checkbox script (end)-->
+    
+    <script defer src="js/main.js"></script>
 
 </body>
 </html>

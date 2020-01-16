@@ -1,4 +1,4 @@
-const checkbox = document.querySelector('input[name=theme');
+const checkbox = document.querySelector('input[name=theme]');
 
 checkbox.addEventListener('change', function() {
     if(this.checked) {
@@ -9,7 +9,7 @@ checkbox.addEventListener('change', function() {
         trans()
         document.documentElement.setAttribute('data-theme', 'light')
     }
-}
+})
 
 let trans = () => {
     document.documentElement.classList.add('transition');
