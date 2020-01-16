@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme='light'>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" main="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <title>MTKC</title>
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600&display=swap" rel="stylesheet">s
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -29,9 +29,18 @@
                 </li>
             </ul>
         </nav>
+
+        <!-- checkbox for dark/light modes --> 
+        <div class="night-mode">
+            <input type="checkbox" name='theme'/>
+        </div>
+
+        <!--
         <button class="night-mode">
             <img class="night-mode__icon" src="/img/moon.svg" alt="night mode icon">
+
         </button>
+        --> 
         <label>
             <svg xmlns="http://www.w3.org/2000/svg" 
             xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -48,6 +57,32 @@
             <input placeholder="Search">
         </label>
     </header>
+
+    <!-- checkbox script (start)-->
+    <script>
+
+        var checkbox = document.querySelector('input[name=theme');
+
+        checkbox.addEventListener('change', function() {
+            if(this.checked) {
+                trans()
+                document.documentElement.setAttribute('data-theme', 'dark')
+            }
+            else{
+                trans()
+                document.documentElement.setAttribute('data-theme', 'light')
+            }
+        })
+
+        let trans = () => {
+            document.documentElement.classList.add('transition');
+            window.setTimeout(() => {
+                document.documentElement.classList.remove('transition');
+            }, 1000)
+        }
+
+    </script>
+    <!-- checkbox script (end)-->
 
     <section class="hero">
         <div class="hero__container">            

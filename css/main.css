@@ -19,9 +19,32 @@ html{
     --regspan-c: #4260D1;
     --moddiv-bg: #fff;
     --mod-bg: rgba(0,0,0,.5);
+    --toggle-c: #fff;
 
 }
 
+html[data-theme='dark']{
+    --body-bg: #242424;
+    --head-bg:  #333333;
+    --head-shad: #92929229;
+    --loglink-c: #e2dbdb;
+    --headlink-c: #e2dbdb;
+    --loglink-hc: #1C2750; 
+    --logotxt-c: #e2dbdb;
+    --hero-bg: #1C2750;
+    --herotitle-c:  #ffffff;
+    --herobtn-bg: #8198EE;
+    --herobtn-c:  #333333;
+    --herobtn-shad: #000000;
+    --tc-border: #e2dbdb;
+    --tc-bg:  #111111;
+    --tcitem-c: rgb(100, 116, 182);
+    --ttitem-c: rgb(46, 65, 131);
+    --regspan-c: #4260D1;
+    --moddiv-bg:  #333333;
+    --mod-bg:  #333333;
+    --toggle-c: #000000;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -74,16 +97,18 @@ header * {
     font-size: 22px;
     padding-right: 50px;
 }
+/*toggle start*/
 
 .night-mode {
     position: absolute;
     right: 280px;
     border: solid 1px #E0E0E0;
     border-radius: 3px;
-    background-color: #fff;
+    background-color: var(--toggle-c);
     padding: 5px 10px;
 }
 
+/* toggle end*/
 .search__input{ 
     padding: 10px;
 }
