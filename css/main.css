@@ -30,12 +30,10 @@ html[data-theme='dark']{
     --body-bg: #172B4D;
     --head-bg:  #2D4060;
     --head-shad: #76767629;
-    --loglink-c: #9AAFFF;
-    --headlink-c: #CBCBCB;
-    /*update color for loglink-hc and logotxt-c*/
-    --loglink-hc: #1C2750;  
-    --logotxt-c: #e2dbdb;
-
+    --loglink-c: #CBCBCB;
+    --headlink-c: #9AAFFF;
+    --loglink-hc: #9AAFFF;  
+    --logotxt-c: #9AAFFF;
     --hero-bg: #2D4060;
     --herotitle-c:  #FFFFFF;
     --herobtn-bg: #8198EE;
