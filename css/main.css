@@ -1,5 +1,4 @@
 html{
-
     --body-bg: #F9FBFD;
     --head-bg: #fff;
     --head-shad: #76767629;
@@ -17,12 +16,11 @@ html{
     --tcitem-c: #45507A;
     --ttitem-c: #1C2750;
     --regspan-c: #4260D1;
-    --moddiv-bg: #fff;
-    --mod-bg: rgba(0,0,0,.5);
     --search-border: #E0E0E0;
     --searchbox-bg: #FFFFFF;
     --toggle-c: #fff;
     --toggle-border: #E0E0E0;
+    --region-text: #1C2750;
 
 }
 
@@ -43,17 +41,13 @@ html[data-theme='dark']{
     --tc-bg:  #2D4060;
     --tcitem-c: #FCFCFF;
     --ttitem-c: #9AAFFF;
-
-    /*update colors: regspan, moddivm mod*/
-    --regspan-c: #4260D1;
-    --moddiv-bg:  #333333;
-    --mod-bg:  #333333;
-
+    --regspan-c: #9AAFFF; 
     --search-border: #203250;
     --searchInput-bg: #203250;
     --searchInput-text: #e2dbdb;
     --toggle-c: #203250;
     --toggle-border: #203250;
+    --region-text: #FFFFFF;
     
 }
 
@@ -279,6 +273,7 @@ html.transition *:after {
 }
 
 .region__item {
+    color: var(--region-text);
     display: inline;
     padding: auto;
     padding: 15px;
@@ -287,7 +282,7 @@ html.transition *:after {
 .graphics__title {
     font: 400 21px;
     letter-spacing: -0.23px;
-    color: var(--ttitem-c);
+    color: var(--region-text);
     padding: 50px;
 }
 
