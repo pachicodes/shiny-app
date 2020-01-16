@@ -19,31 +19,44 @@ html{
     --regspan-c: #4260D1;
     --moddiv-bg: #fff;
     --mod-bg: rgba(0,0,0,.5);
+    --search-border: #E0E0E0;
+    --searchbox-bg: #FFFFFF;
     --toggle-c: #fff;
+    --toggle-border: #E0E0E0;
 
 }
 
 html[data-theme='dark']{
-    --body-bg: #242424;
-    --head-bg:  #333333;
-    --head-shad: #92929229;
-    --loglink-c: #e2dbdb;
-    --headlink-c: #e2dbdb;
-    --loglink-hc: #1C2750; 
+    --body-bg: #172B4D;
+    --head-bg:  #2D4060;
+    --head-shad: #76767629;
+    --loglink-c: #9AAFFF;
+    --headlink-c: #CBCBCB;
+    /*update color for loglink-hc and logotxt-c*/
+    --loglink-hc: #1C2750;  
     --logotxt-c: #e2dbdb;
-    --hero-bg: #1C2750;
-    --herotitle-c:  #ffffff;
+
+    --hero-bg: #2D4060;
+    --herotitle-c:  #FFFFFF;
     --herobtn-bg: #8198EE;
-    --herobtn-c:  #333333;
-    --herobtn-shad: #000000;
-    --tc-border: #e2dbdb;
-    --tc-bg:  #111111;
-    --tcitem-c: rgb(100, 116, 182);
-    --ttitem-c: rgb(46, 65, 131);
+    --herobtn-c:  #FFFFFF;
+    --herobtn-shad: #76767629;
+    --tc-border: #CBCBCB;
+    --tc-bg:  #2D4060;
+    --tcitem-c: #FCFCFF;
+    --ttitem-c: #9AAFFF;
+
+    /*update colors: regspan, moddivm mod*/
     --regspan-c: #4260D1;
     --moddiv-bg:  #333333;
     --mod-bg:  #333333;
-    --toggle-c: #000000;
+
+    --search-border: #203250;
+    --searchInput-bg: #203250;
+    --searchInput-text: #e2dbdb;
+    --toggle-c: #203250;
+    --toggle-border: #203250;
+    
 }
 
 body {
@@ -102,27 +115,46 @@ header * {
 .night-mode {
     position: absolute;
     right: 280px;
-    border: solid 1px #E0E0E0;
+    border: solid 1px var(--toggle-border);
     border-radius: 3px;
     background-color: var(--toggle-c);
     padding: 5px 10px;
 }
 
+input[type=checkbox]{
+    cursor: pointer;
+    
+    
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
+}
+
 /* toggle end*/
+
+
 .search__input{ 
     padding: 10px;
 }
 
-label {
+.search-box{
     position: absolute;
     right: 70px;
-    border: solid 1px #E0E0E0;
+    border: solid 1px var(--search-border);
+    background: var(--searchInput-bg);
     border-radius: 3px;
     padding: 6px;
 }
 
-input {
-    border: 0;  
+.search-box__input{
+    border: 0; 
+    background: var(--searchInput-bg);
+    color: var(--searchInput-text);
 }
 
 /* Hero */

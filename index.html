@@ -32,7 +32,8 @@
 
         <!-- checkbox for dark/light modes --> 
         <div class="night-mode">
-            <input type="checkbox" name='theme'/>
+            <input type="checkbox" id = "checkboxSwitch" name='theme'/>
+            <img for="checkboxSwitch" src="/img/moon.svg" alt="night mode icon"></img>
         </div>
 
         <!--
@@ -41,7 +42,7 @@
 
         </button>
         --> 
-        <label>
+        <label class="search-box">
             <svg xmlns="http://www.w3.org/2000/svg" 
             xmlns:xlink="http://www.w3.org/1999/xlink" 
             version="1.1" id="Capa_1" x="0px" y="0px" width="20px" height="20px" 
@@ -54,7 +55,7 @@
                 </g>
             </g></g> 
             </svg>            
-            <input placeholder="Search">
+            <input class="search-box__input" placeholder="Search">
         </label>
     </header>
 
