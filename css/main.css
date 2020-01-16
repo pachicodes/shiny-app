@@ -21,6 +21,7 @@ html{
     --toggle-c: #fff;
     --toggle-border: #E0E0E0;
     --region-text: #1C2750;
+    --modal-close: #76706B;
 
 }
 
@@ -48,6 +49,7 @@ html[data-theme='dark']{
     --toggle-c: #203250;
     --toggle-border: #203250;
     --region-text: #FFFFFF;
+    --modal-close: #FFFFFF;
     
 }
 
@@ -301,16 +303,16 @@ html.transition *:after {
   }
 
   .modal__card {
-    background-color: #fefefe;
+    background-color: var(--head-bg);
+    border-radius: 11px;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
     width: 50%;
     height: 50%;
   }
   
    .modal__close {
-    color: #aaa;
+    color: var(--modal-close);
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -318,7 +320,7 @@ html.transition *:after {
   
   .modal__close:hover,
   .modal__close:focus {
-    color: black;
+    color: var(--loglink-hc);
     text-decoration: none;
     cursor: pointer;
   } 
