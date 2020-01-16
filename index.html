@@ -88,7 +88,7 @@
               <th class="content__table-title-item">Arrest per Report</th>
             </tr>
 
-            <tr class="content__table-content">
+            <tr id="modalLine" class="content__table-content">
                 <th class="content__table-content-item">1</th>
                 <th class="content__table-content-item">Florida</th>
                 <th class="content__table-content-item">21299325</th>
@@ -103,7 +103,7 @@
                 <th class="content__table-content-item">0.243829</th>                
             </tr>
 
-            <tr class="content__table-content">
+            <tr id="modalLine" class="content__table-content">
                 <th class="content__table-content-item">2</th>
                 <th class="content__table-content-item">New York</th>
                 <th class="content__table-content-item">21299325</th>
@@ -118,7 +118,7 @@
                 <th class="content__table-content-item">0.243829</th>              
             </tr>
 
-            <tr class="content__table-content">
+            <tr id="modalLine" class="content__table-content">
                 <th class="content__table-content-item">3</th>
                 <th class="content__table-content-item">Pennsylvania</th>
                 <th class="content__table-content-item">21299325</th>
@@ -133,7 +133,7 @@
                 <th class="content__table-content-item">0.243829</th>                
             </tr>
 
-            <tr class="content__table-content">
+            <tr id="modalLine" class="content__table-content">
                 <th class="content__table-content-item">4</th>
                 <th class="content__table-content-item">Illinois</th>
                 <th class="content__table-content-item">21299325</th>
@@ -148,7 +148,7 @@
                 <th class="content__table-content-item">0.243829</th>                 
             </tr>
 
-            <tr class="content__table-content">
+            <tr id="modalLine" class="content__table-content">
                 <th class="content__table-content-item">5</th>
                 <th class="content__table-content-item">Ohio</th>
                 <th class="content__table-content-item">21299325</th>
@@ -163,7 +163,7 @@
                 <th class="content__table-content-item">0.243829</th>                 
             </tr>
 
-            <tr class="content__table-content">
+            <tr id="modalLine" class="content__table-content">
                 <th class="content__table-content-item">6</th>
                 <th class="content__table-content-item">Georgia</th>
                 <th class="content__table-content-item">21299325</th>
@@ -178,7 +178,7 @@
                 <th class="content__table-content-item">0.243829</th> 
             </tr>
 
-            <tr class="content__table-content">
+            <tr id="modalLine" class="content__table-content">
                 <th class="content__table-content-item">7</th>
                 <th class="content__table-content-item">North Caroline</th>
                 <th class="content__table-content-item">21299325</th>
@@ -193,7 +193,7 @@
                 <th class="content__table-content-item">0.243829</th>                
             </tr>
 
-            <tr class="content__table-content">
+            <tr id="modalLine" class="content__table-content">
                 <th class="content__table-content-item">8</th>
                 <th class="content__table-content-item">Michigan</th>
                 <th class="content__table-content-item">21299325</th>
@@ -208,7 +208,7 @@
                 <th class="content__table-content-item">0.243829</th> 
             </tr>
 
-            <tr class="content__table-content">
+            <tr id="modalLine" class="content__table-content">
                 <th class="content__table-content-item">9</th>
                 <th class="content__table-content-item">New Jersey</th>
                 <th class="content__table-content-item">21299325</th>
@@ -223,7 +223,7 @@
                 <th class="content__table-content-item">0.243829</th>                
             </tr>
 
-            <tr class="content__table-content">
+            <tr id="modalLine" class="content__table-content">
                 <th class="content__table-content-item">10</th>
                 <th class="content__table-content-item">Virginia</th>
                 <th class="content__table-content-item">21299325</th>
@@ -240,10 +240,40 @@
         </table> 
     </section>
 
-    <div id="modal">
-  <a href="#">X</a>
-  This is an Modal. Hello!
- </div>
+    <section id="Modal" class="modal">
+        <div class="modal__card">
+            <span class="modal__close">&times;</span>        
+            <h1 class="modal__title">State Name</h1>
+            <table class="modal__table">
+              <tr class="modal__line">
+                <th class="modal__line-title">Nurses per sexual assault</th>
+                <th class="modal__line-content"> 230 </th>
+              </tr>
+              <tr class="modal__line">
+                <th class="modal__line-title">Population per sexual assault Nurse</th>
+                <th class="modal__line-content"> 48478749</th>
+              </tr>
+              <tr class="modal__line">
+                <th class="modal__line-title">Population per Nurse</th>
+                <th class="modal__line-content"> 9389394</th>
+              </tr>
+              <tr class="modal__line">
+                <th class="modal__line-title">State Code</th>
+                <th class="modal__line-content">DL</th>
+              </tr>
+            <tr class="modal__line">
+                <th class="modal__line-title">Region</th>
+                <th class="modal__line-content"> South </th>
+              </tr>
+            <tr class="modal__line"> 
+                <th class="modal__line-title">Division</th>
+                <th class="modal__line-content"> Shout North </th>
+              </tr> 
+             </table>
+
+        </div>
+    </section>
+
 
     <footer class="footer">
         <div class="footer__pages">
