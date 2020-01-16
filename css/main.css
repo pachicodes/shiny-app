@@ -316,8 +316,8 @@ html.transition *:after {
     font-weight: bold;
   }
   
-  .close:hover,
-  .close:focus {
+  .modal__close:hover,
+  .modal__close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
