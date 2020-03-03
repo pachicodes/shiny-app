@@ -1,0 +1,308 @@
+[
+ {
+   "State": "Alabama",
+   "Untested Kits": "Unknown",
+   "Testing Status": "In Progress",
+   "Reform Status": "No Statewide Reform"
+ },
+ {
+   "State": "Alaska",
+   "Untested Kits": "2,568",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Arizona",
+   "Untested Kits": "6,424",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Arkansas",
+   "Untested Kits": "2,217",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "California",
+   "Untested Kits": "13,615",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Colorado",
+   "Untested Kits": "0",
+   "Testing Status": "Completed",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Connecticut",
+   "Untested Kits": "0",
+   "Testing Status": "Completed",
+   "Reform Status": "Comprehensive Statewide Reform Enacted"
+ },
+ {
+   "State": "Delaware",
+   "Untested Kits": "1,033",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Florida",
+   "Untested Kits": "13,435",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Georgia",
+   "Untested Kits": "10,314",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Hawaii",
+   "Untested Kits": "1,951",
+   "Testing Status": "In Progress",
+   "Reform Status": "Comprehensive Statewide Reform Enacted"
+ },
+ {
+   "State": "Idaho",
+   "Untested Kits": "1,116",
+   "Testing Status": "Unknown",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Illinois",
+   "Untested Kits": "Unknown",
+   "Testing Status": "In Progress",
+   "Reform Status": "Comprehensive Statewide Reform Enacted"
+ },
+ {
+   "State": "Indiana",
+   "Untested Kits": "4,980",
+   "Testing Status": "Unknown",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Iowa",
+   "Untested Kits": "4,265",
+   "Testing Status": "Unknown",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Kansas",
+   "Untested Kits": "2,220",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Kentucky",
+   "Untested Kits": "0",
+   "Testing Status": "In Progress",
+   "Reform Status": "Comprehensive Statewide Reform Enacted"
+ },
+ {
+   "State": "Louisiana",
+   "Untested Kits": "1,133",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Maine",
+   "Untested Kits": "Unknown",
+   "Testing Status": "Unknown",
+   "Reform Status": "No Statewide Reform"
+ },
+ {
+   "State": "Maryland",
+   "Untested Kits": "6,000",
+   "Testing Status": "Unknown",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Massachusetts",
+   "Untested Kits": "Unknown",
+   "Testing Status": "Unknown",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Michigan",
+   "Untested Kits": "1,177",
+   "Testing Status": "In Progress",
+   "Reform Status": "Comprehensive Statewide Reform Enacted"
+ },
+ {
+   "State": "Minnesota",
+   "Untested Kits": "3,482",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Mississippi",
+   "Untested Kits": "Unknown",
+   "Testing Status": "Unknown",
+   "Reform Status": "No Statewide Reform"
+ },
+ {
+   "State": "Missouri",
+   "Untested Kits": "5,424",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Montana",
+   "Untested Kits": "0",
+   "Testing Status": "Completed",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Nebraska",
+   "Untested Kits": "Unknown",
+   "Testing Status": "Unknown",
+   "Reform Status": "No Statewide Reform"
+ },
+ {
+   "State": "Nevada",
+   "Untested Kits": "523",
+   "Testing Status": "In Progress",
+   "Reform Status": "Comprehensive Statewide Reform Enacted"
+ },
+ {
+   "State": "New Hampshire",
+   "Untested Kits": "582",
+   "Testing Status": "Unknown",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "New Jersey",
+   "Untested Kits": "Unknown",
+   "Testing Status": "Unknown",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "New Mexico",
+   "Untested Kits": "5,302",
+   "Testing Status": "Unknown",
+   "Reform Status": "Statewide Reform Proposed"
+ },
+ {
+   "State": "New York",
+   "Untested Kits": "1,981",
+   "Testing Status": "In Progress",
+   "Reform Status": "Comprehensive Statewide Reform Enacted"
+ },
+ {
+   "State": "North Carolina",
+   "Untested Kits": "15,160",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "North Dakota",
+   "Untested Kits": "500",
+   "Testing Status": "In Progress",
+   "Reform Status": "No Statewide Reform"
+ },
+ {
+   "State": "Ohio",
+   "Untested Kits": "0",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Oklahoma",
+   "Untested Kits": "7,270",
+   "Testing Status": "Unknown",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Oregon",
+   "Untested Kits": "0",
+   "Testing Status": "Completed",
+   "Reform Status": "Comprehensive Statewide Reform Enacted"
+ },
+ {
+   "State": "Pennsylvania",
+   "Untested Kits": "0",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Rhode Island",
+   "Untested Kits": "Unknown",
+   "Testing Status": "Unknown",
+   "Reform Status": "No Statewide Reform"
+ },
+ {
+   "State": "South Carolina",
+   "Untested Kits": "1,800",
+   "Testing Status": "Unknown",
+   "Reform Status": "Statewide Reform Proposed"
+ },
+ {
+   "State": "South Dakota",
+   "Untested Kits": "350",
+   "Testing Status": "Unknown",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Tennessee",
+   "Untested Kits": "9,062",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Texas",
+   "Untested Kits": "2,138",
+   "Testing Status": "In Progress",
+   "Reform Status": "Comprehensive Statewide Reform Enacted"
+ },
+ {
+   "State": "Utah",
+   "Untested Kits": "1,376",
+   "Testing Status": "In Progress",
+   "Reform Status": "Comprehensive Statewide Reform Enacted"
+ },
+ {
+   "State": "Vermont",
+   "Untested Kits": "58",
+   "Testing Status": "Unknown",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Virginia",
+   "Untested Kits": "2,369",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Washington",
+   "Untested Kits": "6,460",
+   "Testing Status": "In Progress",
+   "Reform Status": "Comprehensive Statewide Reform Enacted"
+ },
+ {
+   "State": "Washington DC",
+   "Untested Kits": "Unknown",
+   "Testing Status": "Unknown",
+   "Reform Status": "Statewide Reform Proposed"
+ },
+ {
+   "State": "West Virginia",
+   "Untested Kits": "2,400",
+   "Testing Status": "In Progress",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ },
+ {
+   "State": "Wisconsin",
+   "Untested Kits": "6,837",
+   "Testing Status": "In Progress",
+   "Reform Status": "Statewide Reform Proposed"
+ },
+ {
+   "State": "Wyoming",
+   "Untested Kits": "Unknown",
+   "Testing Status": "Unknown",
+   "Reform Status": "Limited Statewide Reform Enacted"
+ }
+]
