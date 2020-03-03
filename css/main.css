@@ -21,7 +21,12 @@ html{
     --toggle-c: #fff;
     --toggle-border: #E0E0E0;
     --region-text: #1C2750;
+    --modal: #FFFFFF;
+    --modal-bg: rgba(0,0,0,0.8);
     --modal-close: #76706B;
+    --modal-title: #1C2750;
+    --modal-text: #565454;
+    
 
 }
 
@@ -49,7 +54,11 @@ html[data-theme='dark']{
     --toggle-c: #203250;
     --toggle-border: #203250;
     --region-text: #FFFFFF;
+    --modal: #45507A;
+    --modal-bg: rgba(28, 39, 80, 0.8);
     --modal-close: #FFFFFF;
+    --modal-title: #FCFCFF;
+    --modal-text: #FCFCFF;
     
 }
 
@@ -289,38 +298,60 @@ html.transition *:after {
 }
 
 /* Modal */
- .modal {
+.modal {
     text-align: left;
     display: none;
     position: fixed;
-    z-index: 1; /* Sit on top */
+    z-index: 1;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: var(--modal-bg) /* Black w/ opacity */
   }
 
-  .modal__card {
-    background-color: var(--head-bg);
-    border-radius: 11px;
-    margin: 15% auto;
-    padding: 20px;
-    width: 50%;
-    height: 50%;
-  }
+.modal__card {
+  background-color: var(--modal);
+  border-radius: 11px;
+  margin: 15% auto;
+  padding: 20px;
+  width: 40%;
+  height: 50%;
+}
   
-   .modal__close {
-    color: var(--modal-close);
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
+.modal__close {
+  color: var(--modal-close);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
   
-  .modal__close:hover,
-  .modal__close:focus {
+.modal__close:hover,
+.modal__close:focus {
+  color: var(--loglink-hc);
+  text-decoration: none;
+  cursor: pointer;
+} 
+.modal__flag {
+    width: 40px;
+    float: left;
+    padding: 5px 10px;
+}
+.modal__title {
+  font-size: 20px;
+  padding: 10px 40px;
+  letter-spacing: -0.22px;
+  color: var(--modal-title);
+}
+
+.modal__line {
+    padding: 20px 40px;
+}
+.modal__line-title{
     color: var(--loglink-hc);
-    text-decoration: none;
-    cursor: pointer;
-  } 
+    padding: 20px;
+}
+.modal__line-content {
+    color: var(--modal-text);
+    padding: 20px;
+}
